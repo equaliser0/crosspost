@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/twitter-api/(.*)": "<rootDir>/../libs/twitter-api/src/$1",
+    "@app/twitter-api": "<rootDir>/../libs/twitter-api/src",
+    "@app/hive-api/(.*)": "<rootDir>/../libs/hive-api/src/$1",
+    "@app/hive-api": "<rootDir>/../libs/hive-api/src"
+  }
+}

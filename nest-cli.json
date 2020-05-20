@@ -1,0 +1,27 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "twitter-api": {
+      "type": "library",
+      "root": "libs/twitter-api",
+      "entryFile": "index",
+      "sourceRoot": "libs/twitter-api/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/twitter-api/tsconfig.lib.json"
+      }
+    },
+    "hive-api": {
+      "type": "library",
+      "root": "libs/hive-api",
+      "entryFile": "index",
+      "sourceRoot": "libs/hive-api/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/hive-api/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
