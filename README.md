@@ -50,7 +50,7 @@ crosspost is an MIT-licensed open source project. Support-platform will fallow u
 ## Stay in touch
 
 - Author - [equaliser](https://github.com/equaliser0)
-- Twitter - [@nestframework](https://twitter.com/_equaliser_)
+- Twitter - [@_equaliser_](https://twitter.com/_equaliser_)
 
 ## License
 
